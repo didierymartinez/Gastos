@@ -1,0 +1,114 @@
+{
+  "Cuentas": [
+    {
+      "Nombre": "AvVillas",
+      "Saldo": 100000,
+      "transaccion": true,
+      "pago": true,
+      "compra": true
+    },
+    {
+      "Nombre": "Efectivo",
+      "Saldo": 600000,
+      "transaccion": true,
+      "pago": false,
+      "compra": true
+    },
+    {
+      "Nombre": "Colpatria",
+      "transaccion": true,
+      "pago": true,
+      "compra": true
+    },
+    { "Nombre": "Visa", "transaccion": true, "pago": true, "compra": true },
+    { "Nombre": "Master", "transaccion": true, "pago": true, "compra": true },
+    { "Nombre": "Jumbo", "transaccion": true, "pago": true, "compra": true },
+    { "Nombre": "Rappi" },
+    { "Nombre": "Stem" },
+    { "Nombre": "Inversion" },
+    { "Nombre": "Prestamos", "Saldo": 20000 }
+  ],
+  "Transacciones": {
+    "Ingresos": [
+      {
+        "Descripcion": "Sueldo Primera Q",
+        "DiaLimite": "15",
+        "CuentaCredito": "AvVillas",
+        "Valor": 1000000
+      },
+      {
+        "Descripcion": "Sueldo Segunda Q",
+        "DiaLimite": "30",
+        "CuentaCredito": "AvVillas",
+        "Valor": 2611688
+      },
+      {
+        "Descripcion": "Arriendo",
+        "DiaLimite": "5",
+        "CuentaCredito": "AvVillas",
+        "Valor": 950000
+      }
+    ],
+    "Deudas": [
+      {
+        "Descripcion": "STEM",
+        "DiaLimite": "5",
+        "CuentaDebito": "AvVillas",
+        "CuentaCredito": "Stem",
+        "Valor": 50000
+      },
+      {
+        "Descripcion": "Apto Colina",
+        "DiaLimite": "5",
+        "CuentaDebito": "AvVillas",
+        "Valor": 1500000
+      },
+      {
+        "Descripcion": "Apto Centro",
+        "DiaLimite": "30",
+        "CuentaDebito": "AvVillas",
+        "Valor": 715000
+      },
+      {
+        "Descripcion": "Crédito N204",
+        "DiaLimite": "23",
+        "CuentaDebito": "AvVillas",
+        "Valor": 1330000
+      }
+    ],
+    "Servicios": [
+      {
+        "Descripcion": "Gas",
+        "DiaLimite": "23",
+        "CuentaDebito": "AvVillas",
+        "Valor": 60000
+      },
+      {
+        "Descripcion": "Agua",
+        "DiaLimite": "18",
+        "CuentaDebito": "AvVillas",
+        "Valor": 100000
+      },
+      {
+        "Descripcion": "Luz",
+        "DiaLimite": "20",
+        "CuentaDebito": "AvVillas",
+        "Valor": 100000
+      },
+      {
+        "Descripcion": "Claro",
+        "DiaLimite": "15",
+        "CuentaDebito": "AvVillas",
+        "Valor": 133200
+      }
+    ],
+    "Recurrente": [
+      {
+        "Descripcion": "Retiro",
+        "CuentaDebito": "AvVillas",
+        "CuentaCredito": "Efectivo",
+        "Valor": 200000
+      }
+    ]
+  }
+}
