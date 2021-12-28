@@ -1,0 +1,2 @@
+# Gastos
+Created with CodeSandbox
